@@ -7,11 +7,14 @@ import { HomeComponent } from './home/home.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ServicesComponent } from './services/services.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,ContactsComponent,AboutComponent, NavbarComponent
+    HomeComponent,ContactsComponent,AboutComponent, NavbarComponent, PortfolioComponent, ServicesComponent, NotFoundComponent
   ],
   imports: [
     BrowserModule,
