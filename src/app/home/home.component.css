@@ -1,0 +1,47 @@
+.home{
+    background-image: url("/assets/images/home1.jpeg");
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.home h4{
+    font-size: 30px;
+}
+.home h1{
+    font-size: 40px;
+}
+.home p{
+    font-size: 30px;
+}
+.home-layer{
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+}
+.main-color{
+    color: #D34F1F;
+}
+.home-content{
+    
+    height: 100vh;
+    align-items: center;
+    padding-top: 100px;
+}
+.sub-title{
+    max-width: 500px;
+    
+}
+.contact-btn{
+    color:#D34F1F ;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px 35px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 17px;
+    font-size: 20px;
+}
+.contact-btn:hover{
+    background-color: #D34F1F;
+    color: white;
+}
+
+.home
